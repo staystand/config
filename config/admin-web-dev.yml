@@ -26,20 +26,20 @@ admin:
     rember:
     me:
       key: zdMfBxqzAIQPkxqMqh3ZpQ==
-session:
-  timeout: 1800000
 shiro:
-  annotations:
-    enabled: false
-  rememberMeManager:
-    cookie:
-      domain: .xdida.com
-      maxAge: 1209600
-      name: _adminreme
-      secure: true
   sessionManager:
     cookie:
-      domain: .xdida.com
-      maxAge: -1
       name: _adminsid
+      maxAge: -1
+      domain: xdida.com
       secure: true
+  rememberMeManager:
+    cookie:
+      name: _adminreme
+      maxAge: 1209600
+      domain: xdida.com
+      secure: true
+  annotations:
+    enabled: false
+session:
+  timeout: 1800000
