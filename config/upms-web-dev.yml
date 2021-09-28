@@ -35,5 +35,13 @@ server:
 spring:
   application:
     name: upms
+management:
+  endpoint:
+    shutdown:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 config:
   test: 1
