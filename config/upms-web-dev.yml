@@ -1,20 +1,20 @@
 shiro:
     sessionManager:
         cookie:
-            name:_upsid
-            maxAge:-1
-            domain:.xdida.com
-            secure:true
+            name: _upsid
+            maxAge: -1
+            domain: .xdida.com
+            secure: true
     rememberMeManager:
         cookie:
-            name:_upreme
-            maxAge:1209600
-            domain:.xdida.com
-            secure:true
+            name: _upreme
+            maxAge: 1209600
+            domain: .xdida.com
+            secure: true
     annotations:
-        enabled:false
+        enabled: false
 session:
-    timeout:1800000
+    timeout: 1800000
 upms:
   client:
     rember:
