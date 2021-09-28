@@ -21,8 +21,8 @@ shiro:
     enabled: false
   annotations:
     enabled: false
-admin:
-  client:
-    rember:
-      me:
-        key: zdMfBxqzAIQPkxqMqh3ZpQ==
+#admin:
+#  client:
+#    rember:
+#      me:
+#        key: zdMfBxqzAIQPkxqMqh3ZpQ==
