@@ -1,0 +1,38 @@
+shiro:
+    sessionManager:
+        cookie:
+            name:_upsid
+            maxAge:-1
+            domain:.xdida.com
+            secure:true
+    rememberMeManager:
+        cookie:
+            name:_upreme
+            maxAge:1209600
+            domain:.xdida.com
+            secure:true
+    annotations:
+        enabled:false
+session:
+    timeout:1800000
+	
+upms:
+    client:
+        rember:
+            me:
+                key:BVkNYX/GCWEFFlOMCyZ9yg==
+logging:
+  level:
+    root: warn
+    com.xdida: debug
+    java.sql.Statement: debug
+    java.sql.PreparedStatement: debug
+    java.sql.Connection: debug
+  file: /var/log/xdida/${spring.application.name}.log
+  file.max-size: 10MB
+  file.max-history: 100
+server:
+  port: 8080
+spring:
+  application:
+    name: upms
