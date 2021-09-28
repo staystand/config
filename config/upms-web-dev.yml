@@ -35,6 +35,11 @@ server:
 spring:
   application:
     name: upms
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 management:
   endpoint:
     shutdown:
@@ -43,11 +48,5 @@ management:
     web:
       exposure:
         include: "*"
-spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
 config:
   test: 1839
