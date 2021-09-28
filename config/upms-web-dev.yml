@@ -44,4 +44,4 @@ management:
       exposure:
         include: "*"
 config:
-  test: 1824
+  test: 1839
