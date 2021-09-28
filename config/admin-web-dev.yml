@@ -24,8 +24,8 @@ shiro:
 admin:
   client:
     rember:
-    me:
-      key: zdMfBxqzAIQPkxqMqh3ZpQ==
+      me:
+        key: zdMfBxqzAIQPkxqMqh3ZpQ==
 shiro:
   sessionManager:
     cookie:
