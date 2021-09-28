@@ -17,10 +17,10 @@ session:
     timeout:1800000
 	
 upms:
-    client:
-        rember:
-            me:
-                key:BVkNYX/GCWEFFlOMCyZ9yg==
+  client:
+    rember:
+      me:
+        key: BVkNYX/GCWEFFlOMCyZ9yg==
 logging:
   level:
     root: warn
