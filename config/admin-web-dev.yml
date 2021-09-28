@@ -45,3 +45,5 @@ shiro:
     enabled: false
 session:
   timeout: 1800000
+config:
+  test: 1850
