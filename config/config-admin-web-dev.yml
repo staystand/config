@@ -1,0 +1,28 @@
+logging:
+  level:
+    root: warn
+    com.xdida: debug
+    java.sql.Statement: debug
+    java.sql.PreparedStatement: debug
+    java.sql.Connection: debug
+  file: /var/log/xdida/${spring.application.name}.log
+  file.max-size: 10MB
+  file.max-history: 100
+spring:
+  application:
+    name: admin
+  mvc:
+    static-path-pattern: /static/**
+server:
+  port: 8081
+shiro:
+  enabled: false
+  web:
+    enabled: false
+  annotations:
+    enabled: false
+#admin:
+#  client:
+#    rember:
+#      me:
+#        key: zdMfBxqzAIQPkxqMqh3ZpQ==
