@@ -15,18 +15,15 @@ spring:
     static-path-pattern: /static/**
 server:
   port: 8081
-shiro:
-  enabled: false
-  web:
-    enabled: false
-  annotations:
-    enabled: false
 admin:
   client:
     rember:
       me:
         key: zdMfBxqzAIQPkxqMqh3ZpQ==
 shiro:
+  enabled: false
+  web:
+    enabled: false 
   sessionManager:
     cookie:
       name: _adminsid
